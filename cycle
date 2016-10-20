@@ -1,0 +1,11 @@
+a = range(1, 10)
+
+def cycle(lst):
+    total = []
+    for i in lst:
+        if i % 2 == 0:
+            total.append(i)
+    return total
+
+
+print(cycle(a))
